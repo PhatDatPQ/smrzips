@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.bimozie-nice" name="BimoZie Nice" provider-name="NICE" version="1.0.7">
+<addons><addon id="plugin.video.bimozie-nice" name="BimoZie Nice" provider-name="NICE" version="1.0.8">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.six" version="1.14.0" />
@@ -29,6 +29,7 @@
             - Fix Site HHKungFu.TV
             - Fix Site PhimMoi
             - Fix Site Vivuphim
+            - Fix Site Bilutv.Co
             - Fix Site AnimeHay
             - Fix Site HDvietnam.com
             - Chờ bản tiếp theo.
