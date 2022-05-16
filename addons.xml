@@ -184,7 +184,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.resolveurl.xxx" name="Adult Resolver SMR Extension" provider-name="gujal" version="2.1.22">
+</addon><addon id="script.module.resolveurl.xxx" name="Adult Resolver SMR Extension" provider-name="gujal" version="2.1.23">
 	<requires>
 		
         <import addon="script.module.resolveurl" version="5.1.0" />
