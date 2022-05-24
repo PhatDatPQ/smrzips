@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nice" version="1.0.0" name="[COLOR red][B]NICE[/B][/COLOR] [COLOR yellow][B]Repository[/B][/COLOR]" provider-name="NICE">
+<addon id="repository.nice" version="1.0.1" name="[COLOR red][B]NICE[/B][/COLOR] [COLOR yellow][B]Repository[/B][/COLOR]" provider-name="NICE">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -24,4 +24,8 @@
         <email>nofearlose@gmail.com</email>
         <platform>all</platform>
     </extension>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>			
+    </assets>	
 </addon>
