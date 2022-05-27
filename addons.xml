@@ -199,6 +199,22 @@
 		<description lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
 		<platform>all</platform>
 	</extension>
+</addon><addon id="script.module.subs2n" name="subs2n module" provider-name="NICE" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Provides SubS2N library functionality for Kodi addons</summary>
+        <description lang="en_GB">Provides SubS2N library functionality for Kodi addons</description>
+        <disclaimer lang="en_GB">May contain a bug</disclaimer>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://nicerepo.cf</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon><addon id="script.module.urlresolver" name="URLResolver" provider-name="tvaddons" version="7.0.00">
     <requires>
         
@@ -225,6 +241,40 @@
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
     </extension>
+</addon><addon id="service.subtitles.opensubtitles_by_opensubtitles_by_nice" name="OpenSubtitles.org by OpenSubtitles" provider-name="amet, opensubtitles" version="5.2.16">
+  <requires>
+    <import addon="script.module.subs2n" version="1.0.0" />
+    <import addon="script.module.chardet" />
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension library="service.py" point="xbmc.subtitle.module" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">OpenSubtitles by OpenSubtitles.org</summary>
+    <summary lang="hr_HR">OpenSubtitles.org podnaslovi</summary>
+    <description lang="en_GB">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
+	<news>
+Improved add-on by OpenSubtitles.org
+v5.2.15 (2020-04-27)
+- Ported to python 3.0. The 30th anniversary of the Restoration of Independence of Lithuania
+
+v5.2.14 (2017-01-23)
+- Users are able to download subtitles as anonymous without authentication. Added localized descriptions, media files
+- New feature: Users are able to check for subtitles when Kodi is not playing, by using the manual search or by standing on an item and opening the subtitles search dialog (By key or by an external addon)  | @burekas
+	</news>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
+    <website>http://www.opensubtitles.org</website>
+    <email>admin [at] opensubtitles {dot} org</email>                                               
+	<assets>
+	    <icon>resources/media/os_logo_512x512.png</icon>
+	    <fanart>resources/media/os_fanart.jpg</fanart>    
+		<screenshot>resources/media/screenshot_1.jpg</screenshot>
+		<screenshot>resources/media/screenshot_2.jpg</screenshot>
+		<screenshot>resources/media/screenshot_3.jpg</screenshot>				
+	</assets>
+    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles</source>    
+  </extension>
 </addon><addon id="service.subtitles.subscenenice" name="Subscene 2022" provider-name="NICE" version="1.0.0">
     <requires>
         
@@ -255,5 +305,39 @@ Donate:
 [v1.0.0]:
   * Subscene Hổ Trợ Kodi 19.4
         </news>
+    </extension>
+</addon><addon id="service.subtitles.subscenenice2s" name="Subscene 2022 - 2" provider-name="NICE" version="1.0.0">
+    <requires>
+        
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.subs2n" version="1.0.0" />
+        <import addon="script.module.chardet" />
+    </requires>
+    <extension library="service.py" point="xbmc.subtitle.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19</summary>
+        <description lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19</description>
+        <news>
+Liên Hệ: Fb.Com/PhatDatPQ
+Donate: 
+        ♥ Argibank ♥
+        ♥ 7790205260097 ♥
+        ♥ ĐOÀN PHÁT ĐẠT ♥
+ĐÓNG GÓP CHO CỘNG ĐỒNG KODI VN - VUI LÒNG KHÔNG MANG ĐI THƯƠNG MẠI. CẢM ƠN ♥
+[v1.0.1]:
+  * Hổ Trợ Chạy 2 Sub Song Song.
+[v1.0.0]:
+  * Subscene Hổ Trợ Kodi 19.4
+        </news>
+        <disclaimer lang="en" />
+        <platform>all</platform>
+        <language />
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://www.facebook.com/groups/704400303417098</forum>
+        <website />
+        <email />
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
     </extension>
 </addon></addons>
