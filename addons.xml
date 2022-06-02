@@ -161,7 +161,7 @@
     <email />
     <source />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" provider-name="gujal" version="5.1.68">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" provider-name="gujal" version="5.1.69">
     <requires>
         
         <import addon="script.module.six" />
@@ -188,7 +188,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.resolveurl.xxx" name="Adult Resolver SMR Extension" provider-name="gujal" version="2.1.23">
+</addon><addon id="script.module.resolveurl.xxx" name="Adult Resolver SMR Extension" provider-name="gujal" version="2.1.24">
 	<requires>
 		
         <import addon="script.module.resolveurl" version="5.1.0" />
