@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.bimozie-nice" name="BimoZie Nice" provider-name="NICE" version="1.0.16">
+<addons><addon id="plugin.video.bimozie-nice" name="BimoZie Nice" provider-name="NICE" version="1.0.17">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.six" version="1.14.0" />
@@ -161,7 +161,7 @@
     <email />
     <source />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" provider-name="gujal" version="5.1.70">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" provider-name="gujal" version="5.1.72">
     <requires>
         
         <import addon="script.module.six" />
