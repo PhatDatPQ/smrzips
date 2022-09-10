@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bimozie-nice" name="BimoZie Nice" version="1.0.23" provider-name="NICE">
+<addon id="plugin.video.bimozie-nice" name="BimoZie Nice" version="1.0.24" provider-name="NICE">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.js2py" version="3.0.0"/>
@@ -23,34 +23,12 @@
         <summary lang="en">Bimozie Nice addon for Kodi 19</summary>
         <description lang="en">
         Addon Được Fix Từ SRC Bác: billy.nguyen.
-        Thông Tin Cập Nhật:
-            - Fix Site PhimMoi
-            - Fix Site TVHAY.ORG -> TVHEY.ORG
-            - Add Site 7CHILL.TV
-            - Add Site FMOVIES.TO + Subtile
-            - Add Site HHPANTA.TV
-            - Fix Site HHKungFu.TV
-            - Fix Site Vivuphim
-            - Fix Site Bilutv.Co
-            - Fix Site AnimeHay
-            - Fix Site HDvietnam.com
-            - Chờ bản tiếp theo.
-        Thông Tin Liên Hệ:
-                - FB.Com/PhatDatPQ
+        Cập Nhật: Update 11.09.2022
+        Liên Hệ: FB.Com/PhatDatPQ
         </description>
         <disclaimer lang="en">Addon Được Fix Từ SRC Bác: billy.nguyen.
-        Thông Tin Cập Nhật:
-            - Fix Site PhimMoi
-            - Fix Site TVHAY.ORG -> TVHEY.ORG
-            - Add Site 7CHILL.TV
-            - Add Site FMOVIES.TO + Subtile
-            - Add Site HHPANTA.TV
-            - Fix Site Vivuphim
-            - Fix Site HHKungFu.Tv
-            - Fix Site AnimeHay
-            - Fix Site HDvietnam.com
-        Thông Tin Liên Hệ:
-            - FB.Com/PhatDatPQ
+        Cập Nhật: Update 11.09.2022
+        Liên Hệ: FB.Com/PhatDatPQ
         </disclaimer>
         <platform>all</platform>
         <email>phatdatpq@gmail.com</email>
