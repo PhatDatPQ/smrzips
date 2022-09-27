@@ -174,7 +174,7 @@
     <source>https://github.com/PiotrDabkowski/pyjsparser</source>
     <email />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.76" provider-name="gujal">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.77" provider-name="gujal">
     <requires>
         
         <import addon="script.module.six" />
@@ -201,21 +201,21 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.resolveurl.xxx" name="Adult Resolver SMR Extension" provider-name="gujal" version="2.1.25">
-	<requires>
-		
+</addon><addon id="script.module.resolveurl.xxx" version="2.1.30" name="Adult Resolver SMR Extension" provider-name="gujal">
+    <requires>
+        
         <import addon="script.module.resolveurl" version="5.1.0" />
-	</requires>
-	<extension library="lib" point="xbmc.python.module" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
-		<platform>all</platform>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Resolve adult video host URL's to be playable in XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
+        <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-	</extension>
+    </extension>
 </addon><addon id="script.module.subs2n" name="subs2n module" provider-name="NICE" version="1.0.0">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
